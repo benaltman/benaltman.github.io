@@ -18,6 +18,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     background: #4c9ab8;
+	width:100%; 
 }
 
 ::selection {
@@ -154,7 +155,7 @@ background: transparent !important;
     }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #034761;
+    color: #fff;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
@@ -163,11 +164,11 @@ background: transparent !important;
 .navbar-inverse .navbar-nav > li > a {
 	color: #FFFFFF;
 }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav > li > a:hover {
 color: #4c9ab8;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-color: #4c9ab8;
+color: #fff;
 background: none;
 }	
 .navbar-toggle {
@@ -176,6 +177,15 @@ background: none;
 #myCarousel {
     margin-top: 50px;
     border-bottom: 4px solid #CC4646;
+}
+
+.dark-p {
+color: #4c9ab8;
+font-size: 20px;
+text-align: center;
+}
+
+.about-icon {
 }
 
 .carousel-inner > .item {
@@ -254,7 +264,7 @@ background: none;
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 6em;
+    font-size: 5.6em;
     font-weight: 700;
 }
 
@@ -1237,3 +1247,18 @@ footer {
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+/* irrelevant styling */
+body { text-align: center; }
+body p { 
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+#tallModal .modal-body p { margin-bottom: 900px }
