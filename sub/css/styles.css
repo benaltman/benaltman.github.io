@@ -507,6 +507,10 @@ footer {
 	border-radius: 50%;
 }
 
+.choptop {
+padding-top: 67px;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
@@ -577,7 +581,7 @@ font-size: 16px;
 }
 
 .portfolio-img{
- border: 1px solid #000;
+ padding: 20px 0px 20px 0px;
  display: block; 
  margin: auto;
  }
